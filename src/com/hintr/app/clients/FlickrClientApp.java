@@ -1,4 +1,4 @@
-package com.myproject.apps.flickrhintrapp;
+package com.hintr.app.clients;
 
 import android.content.Context;
 
@@ -34,7 +34,7 @@ public class FlickrClientApp extends com.activeandroid.app.Application {
         ImageLoader.getInstance().init(config);
     }
     
-    public static FlcikrClient getRestClient() {
-    	return (FlcikrClient) FlcikrClient.getInstance(FlcikrClient.class, FlickrClientApp.context);
+    public static FlickrClient getRestClient() {
+    	return (FlickrClient) FlickrClient.getInstance(FlickrClient.class, FlickrClientApp.context);
     }
 }

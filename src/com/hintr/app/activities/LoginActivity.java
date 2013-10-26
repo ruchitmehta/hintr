@@ -1,12 +1,16 @@
-package com.myproject.apps.flickrhintrapp;
+package com.hintr.app.activities;
 
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.View;
 
 import com.codepath.oauth.OAuthLoginActivity;
+import com.hintr.app.clients.FlickrClient;
+import com.myproject.apps.flickrhintrapp.R;
+import com.myproject.apps.flickrhintrapp.R.layout;
+import com.myproject.apps.flickrhintrapp.R.menu;
 
-public class LoginActivity extends OAuthLoginActivity<FlcikrClient> {
+public class LoginActivity extends OAuthLoginActivity<FlickrClient> {
 
 	
 	/**
