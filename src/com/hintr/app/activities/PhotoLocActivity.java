@@ -1,4 +1,8 @@
-package com.myproject.apps.flickrhintrapp;
+package com.hintr.app.activities;
+
+import com.myproject.apps.flickrhintrapp.R;
+import com.myproject.apps.flickrhintrapp.R.layout;
+import com.myproject.apps.flickrhintrapp.R.menu;
 
 import android.os.Bundle;
 import android.app.Activity;

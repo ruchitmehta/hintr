@@ -1,11 +1,11 @@
-package com.myproject.apps.flickrhintrapp;
+package com.hintr.app.adapters;
 
 import java.util.List;
 
 import android.content.Context;
 import android.widget.ArrayAdapter;
 
-public class PhotoGridArrayAdapter extends ArrayAdapter<ImageResults> {
+/*public class PhotoGridArrayAdapter extends ArrayAdapter<ImageResults> {
 
 	public PhotoGridArrayAdapter(Context context, int textViewResourceId,
 			List<ImageResults> objects) {
@@ -14,3 +14,4 @@ public class PhotoGridArrayAdapter extends ArrayAdapter<ImageResults> {
 	}
 
 }
+*/

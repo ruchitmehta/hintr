@@ -1,4 +1,4 @@
-package com.myproject.apps.flickrhintrapp.models;
+package com.hintr.app.models;
 
 import org.json.JSONException;
 import org.json.JSONObject;

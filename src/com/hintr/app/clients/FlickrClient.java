@@ -1,4 +1,4 @@
-package com.myproject.apps.flickrhintrapp;
+package com.hintr.app.clients;
 
 import org.scribe.builder.api.Api;
 import org.scribe.builder.api.FlickrApi;
@@ -23,14 +23,14 @@ import com.loopj.android.http.RequestParams;
  * NOTE: You may want to rename this object based on the service i.e TwitterClient or FlickrClient
  * 
  */
-public class FlcikrClient extends OAuthBaseClient {
+public class FlickrClient extends OAuthBaseClient {
     public static final Class<? extends Api> REST_API_CLASS = FlickrApi.class; // Change this
     public static final String REST_URL = "http://api.flickr.com/services"; // Change this, base API URL
     public static final String REST_CONSUMER_KEY = "34139c088648cb9158083f60b01eba27";       // Change this
     public static final String REST_CONSUMER_SECRET = "143e5e4b9e015cb5"; // Change this
     public static final String REST_CALLBACK_URL = "oauth://flickrhintrapp"; // Change this (here and in manifest)
     
-    public FlcikrClient(Context context) {
+    public FlickrClient(Context context) {
         super(context, REST_API_CLASS, REST_URL, REST_CONSUMER_KEY, REST_CONSUMER_SECRET, REST_CALLBACK_URL);
         setBaseUrl("http://api.flickr.com/services/rest");
     }
